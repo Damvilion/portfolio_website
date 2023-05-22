@@ -8,14 +8,14 @@ const ToolsIUse = () => {
   return (
     <div>
       <div className="text-center">
-        <h3 className="text-3xl py-1 mx-auto">Tools I Use</h3>
-        <p className="text-md py-2 leading-8">
+        <h3 className="text-3xl py-2 mx-auto">Tools I Use</h3>
+        <p className="text-md py-3 leading-8">
           Since the beginning of my journey as a Self-Taught Software developer,
-          I've found myself getting more passionate about web-development
+          I,ve found myself getting more passionate about web-development
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-3 items-center">
-        <div className="text-center shadow-lg rounded-xl my-10">
+        <div className="text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-5">
           <Image
             src={react_2}
             width={100}
@@ -32,11 +32,11 @@ const ToolsIUse = () => {
               rendering,
             </p>
             <p>making it popular for creating dynamic web applications</p>
-            <h4 className="py-4 text-teal-600">Learn more</h4>
+            <h4 className="py-4 text-teal-600">Learn More</h4>
           </div>
         </div>
 
-        <div className="text-center shadow-lg rounded-xl my-10">
+        <div className="text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-5">
           <Image
             src={tailwind_logo}
             width={100}
@@ -58,10 +58,10 @@ const ToolsIUse = () => {
             </p>
           </div>
 
-          <h4 className="py-4 text-teal-600">Learn more</h4>
+          <h4 className="py-4 text-teal-600">Learn More</h4>
         </div>
 
-        <div className="text-center shadow-lg rounded-xl my-10">
+        <div className="text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-5">
           <Image
             src={nodeJs_logo}
             width={100}
@@ -90,7 +90,7 @@ const ToolsIUse = () => {
             </p>
           </div>
 
-          <h4 className="py-4 text-teal-600">Design tools I use</h4>
+          <h4 className="py-4 text-teal-600">Learn More</h4>
         </div>
       </div>
     </div>
