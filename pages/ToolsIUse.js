@@ -32,8 +32,8 @@ const ToolsIUse = () => {
               rendering,
             </p>
             <p>making it popular for creating dynamic web applications</p>
-            <h4 className="py-4 text-teal-600">Learn More</h4>
           </div>
+          <h4 className="py-4 text-teal-600">Learn More</h4>
         </div>
 
         <div className="basis-1/3 text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-5">
