@@ -24,7 +24,7 @@ const ToolsIUse = () => {
             className="mx-auto"
           />
 
-          <h3 className="text-lg font-medium pt-8 pb-2">React</h3>
+          <h3 className="text-lg font-medium pt-8 pb-2">React JS</h3>
           <div className="py-2 mx-2">
             <p>React is a JavaScript library for building user interfaces.</p>
             <p>
