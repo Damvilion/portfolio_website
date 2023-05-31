@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import portfolio_pic from "../public/images/portfolio_pic.jpg";
+import protfolio_picture from "../public/images/portfolio_picture.jpg";
 
 const MainContent = () => {
   return (
@@ -41,7 +41,7 @@ const MainContent = () => {
       </div>
       <div className="mx-auto relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
         <Image
-          src={portfolio_pic}
+          src={protfolio_picture}
           layout="fill"
           objectFit="cover"
           alt="protfolio_picture"
