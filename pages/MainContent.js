@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import portfolio_pic from "../public/portfolio_pic.jpg";
+import portfolio_pic from "../public/images/portfolio_pic.jpg";
 
 const MainContent = () => {
   return (
