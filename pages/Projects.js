@@ -8,13 +8,13 @@ const Projects = () => {
       <h3 className="text-3xl py-1 text-center">Projects</h3>
       <div className="flex justify-center flex-wrap">
         <div className=" text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-5">
-          <div className="rounded-md overflow-hidden my-2">
+          <div className="rounded-md overflow-hidden my-2 p-3">
             <Image
               src={chatImg}
-              width={250}
+              width={350}
               // height={100}
               alt="react_logo"
-              objectFit="cover"
+              // objectFit="cover"
               className="mx-auto"
             />
           </div>
