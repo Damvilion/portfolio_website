@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import protfolio_picture from "../public/images/portfolio_picture.jpg";
-import { Fade } from "react-reveal";
 import Zoom from "react-reveal/Zoom";
 
 const MainContent = () => {
