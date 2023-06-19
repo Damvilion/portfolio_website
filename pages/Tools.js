@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import nodeJs_logo from "../public/images/nodejs-icon.svg";
 const Tools = ({ name }) => {
   return (
     <div>
