@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import protfolio_picture from "../public/images/portfolio_picture.jpg";
+import { Fade } from "react-reveal";
+import Zoom from "react-reveal/Zoom";
 
 const MainContent = () => {
   return (
@@ -22,10 +23,14 @@ const MainContent = () => {
       </nav>
 
       <div className="text-center p-10">
-        <h2 className="text-5xl py-2 text-teal-600 font-bold font-Inter">
-          Noel Ohaeri
-        </h2>
-        <h3 className="text-2xl py2">Software Engineer</h3>
+        <Zoom>
+          <h2 className="text-5xl py-2 text-teal-600 font-bold font-Inter">
+            Noel Ohaeri
+          </h2>
+        </Zoom>
+        <Zoom>
+          <h3 className="text-2xl py2">Software Engineer</h3>
+        </Zoom>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-700">
         <a href="https://github.com/Damvilion" target="_blank">
