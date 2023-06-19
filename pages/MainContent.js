@@ -6,7 +6,7 @@ import protfolio_picture from "../public/images/portfolio_picture.jpg";
 
 const MainContent = () => {
   return (
-    <div>
+    <div className="">
       <nav className="py-10 mb-12 flex justify-between">
         <h1 className="text-xl font-burtons">Developed by Noel</h1>
         <ul className="flex item-center">
