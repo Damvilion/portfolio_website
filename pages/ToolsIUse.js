@@ -11,11 +11,14 @@ const ToolsIUse = () => {
 
   const slideLeft = () => {
     const sliderElem = slider.current;
+    sliderElem.style.scrollBehavior = "smooth";
+    console.log(sliderElem.style.scrollBehavior);
     sliderElem.scrollLeft = sliderElem.scrollLeft - 500;
   };
 
   const slideRight = () => {
     const sliderElem = slider.current;
+    sliderElem.style.scrollBehavior = "smooth";
     sliderElem.scrollLeft = sliderElem.scrollLeft + 500;
   };
   return (
@@ -27,7 +30,7 @@ const ToolsIUse = () => {
           I,ve found myself getting more passionate about web-development
         </p>
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center justify-center">
         <MdChevronLeft
           size={40}
           onClick={slideLeft}
@@ -36,7 +39,8 @@ const ToolsIUse = () => {
 
         <div
           ref={slider}
-          className="flex w-full h-full overflow-x-scroll scroll-smooth whitespace-nowrap scrollbar-hide p-1"
+          id="slider"
+          className="flex flex-wrap justify-center lg:w-full lg:h-full lg:overflow-x-scroll lg:scroll-smooth lg:whitespace-nowrap scrollbar-hide lg:p-1 lg:flex-nowrap"
         >
           <div className=" text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-1">
             <Image
@@ -85,7 +89,6 @@ const ToolsIUse = () => {
           </div>
 
           <Tools name={nodeJs_logo} />
-          {/* <Tools name={nodeJs_logo} /> */}
         </div>
 
         <MdChevronRight
