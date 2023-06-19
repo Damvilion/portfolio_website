@@ -20,14 +20,23 @@ const Projects = () => {
           </div>
 
           <h3 className="text-lg font-medium pt-8 pb-2">Real Time Chat App</h3>
-          <div className="py-2 mx-2">
-            <p></p>
-          </div>
-          <h4 className="py-4 text-teal-600">
-            <a href="http://github.com/damvilion" target="_blank">
+          <div className=" mx-auto py-2"></div>
+          <div className="py-4 text-teal-600 flex justify-evenly">
+            <a
+              href="https://github.com/Damvilion/real-time-chat"
+              target="_blank"
+            >
               Source Code
             </a>
-          </h4>
+            <span>|</span>
+            <a
+              href="https://real-time-chat-brown.vercel.app/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Project
+            </a>
+          </div>
         </div>
       </div>
     </div>
