@@ -5,16 +5,15 @@ import chatImg from "../public/images/chat-app-img.png";
 const Projects = () => {
   return (
     <div>
-      <h3 className="text-3xl py-1 text-center">Projects</h3>
+      <h3 className="text-3xl py-2 text-center">Projects</h3>
+      <hr className="w-1/4 mx-auto border-solid border-gray-400" />
       <div className="flex justify-center flex-wrap">
         <div className=" text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-5">
           <div className="rounded-md overflow-hidden my-2 p-3">
             <Image
               src={chatImg}
               width={350}
-              // height={100}
               alt="react_logo"
-              // objectFit="cover"
               className="mx-auto"
             />
           </div>
