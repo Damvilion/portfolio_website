@@ -8,7 +8,9 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const ToolsIUse = () => {
   const slider = useRef();
-
+  const scroll = (scrollOffset) => {
+    slider.current.scrollLeft += scrollOffset;
+  };
   const slideLeft = () => {
     const sliderElem = slider.current;
     sliderElem.style.scrollBehavior = "smooth";
@@ -33,16 +35,17 @@ const ToolsIUse = () => {
       <div className="flex items-center justify-center">
         <MdChevronLeft
           size={40}
-          onClick={slideLeft}
+          // onClick={slideLeft}
+          onClick={() => scroll(-300)}
           className="opacity-50 cursor-pointer hover:opacity-100 mx-2"
         />
 
         <div
           ref={slider}
           id="slider"
-          className="flex flex-wrap justify-center lg:w-full lg:h-full lg:overflow-x-scroll lg:scroll-smooth lg:whitespace-nowrap scrollbar-hide lg:p-1 lg:flex-nowrap"
+          className="flex flex-wrap scrollbar-hide lg:w-full lg:h-full lg:overflow-x-scroll lg:scroll-smooth lg:whitespace-nowrap lg:p-1 lg:flex-nowrap"
         >
-          <div className=" text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-1">
+          <div className="snap-center text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-1">
             <Image
               src={react_2}
               width={100}
@@ -93,7 +96,8 @@ const ToolsIUse = () => {
 
         <MdChevronRight
           size={40}
-          onClick={slideRight}
+          // onClick={slideRight}
+          onClick={() => scroll(300)}
           className="opacity-50 cursor-pointer hover:opacity-100 mx-2"
         />
       </div>
