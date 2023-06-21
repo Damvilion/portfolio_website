@@ -43,7 +43,7 @@ const ToolsIUse = () => {
         <div
           ref={slider}
           id="slider"
-          className="flex flex-wrap scrollbar-hide lg:w-full lg:h-full lg:overflow-x-scroll lg:scroll-smooth lg:whitespace-nowrap lg:p-1 lg:flex-nowrap"
+          className="flex flex-wrap gap-2 md:flex-row scrollbar-hide lg:w-full lg:h-full md:overflow-x-scroll md:scroll-smooth md:whitespace-nowrap lg:p-1 md:flex-nowrap"
         >
           <div className="snap-center text-center shadow-lg rounded-xl my-10 hover:shadow-2xl duration-100 hover:translate-y-1">
             <Image
